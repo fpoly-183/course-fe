@@ -9,7 +9,7 @@ const App = () => {
   return (
     <ErrorBoundary>
       <Provider store={store}>
-        <TheContainer />
+        {/*<TheContainer />*/}
       </Provider>
     </ErrorBoundary>
   );
