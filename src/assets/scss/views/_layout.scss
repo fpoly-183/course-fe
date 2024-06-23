@@ -1,0 +1,60 @@
+.wrapper {
+  width: 100%;
+  will-change: auto;
+}
+
+.aside-custom {
+  .side-noti-container {
+    overflow-y: scroll;
+  }
+
+  .aside-navbar {
+    .nav-link.active {
+      color: #669f2a;
+      border-color: #669f2a;
+    }
+
+    .close-nav:hover {
+      color: #e55353;
+      border-color: #e55353;
+    }
+  }
+
+  .readAll-btn {
+    &:hover {
+      background-color: #e6f4d7 !important;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+}
+
+.sidebar-custom {
+  .nav-link {
+    color: $colorBrand01;
+
+    &:hover {
+      background: #c0e4ff;
+    }
+
+    &.active {
+      background: $colorBrand02;
+    }
+  }
+
+  .sidebar-toggler {
+    background-color: $colorBrand02;
+  }
+}

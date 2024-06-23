@@ -1,0 +1,15 @@
+body,
+html {
+  height: 100%;
+  font-family: Inter-Regular, sans-serif;
+}
+
+.body {
+  background-color: $colorWhite;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
