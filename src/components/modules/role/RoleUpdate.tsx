@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 import { AiOutlineEye as Visibility, AiOutlineEyeInvisible as VisibilityOff } from 'react-icons/ai';
 import { useDispatch, useSelector } from 'react-redux';
 import * as Yup from 'yup';
-import { getEntity } from './account.api';
+import { getEntity } from './role.api';
 import { fetching, selectEntityById } from './role.reducer';
 import FormUpdate from '@/components/shared/form/FormUpdate';
 import FormInput from '@/components/shared/form/FormInput';
